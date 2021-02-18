@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './mycomponent/hello'
+import Welcome from './mycomponent/welcome'
+import Arrow from './mycomponent/arrow'
+import Name from './mycomponent/name'
+import ConditionRender from './mycomponent/condition'
+import Condition1 from './mycomponent/condition1'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Condition1/>
+
     </div>
   );
 }
